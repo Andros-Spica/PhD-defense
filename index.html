@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Andreas Angourakis - PhD thesis defense</title>
+
+		<meta name="description" content="Andreas Angourakis - PhD thesis defense - University of Barcelona">
+		<meta name="author" content="Andreas Angourakis">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/skyPhD.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div id="background-header">
+				<div style="text-align:center; position:absolute; top:3%; left: 10%; font-size:33%; color:darkcyan">
+					<i>Andreas Angourakis</i>
+				</div>
+				<div style="text-align:left; position:absolute; top:6%; left: 10%; font-size:33%; color:gray">
+					<b>19 November 2018</b>
+				</div>
+				<div style="text-align:right; position:absolute; top:6%; right: 10%; font-size:33%; color:gray">
+					<b><a href="https://andros-spica.github.io/Angourakis-2018/">https://andros-spica.github.io/PhD-defense/</a></b>
+				</div>
+			</div>
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+            	<section data-state="title-page">
+					Exploración y modelización de patrones socioecológicos y tecnoculturales en sociedades preindustriales de zonas áridas afro-eurasiáticas
+					<br><br>
+					<small style="color:DodgerBlue;">Andreas <b>Angourakis</b></small><br>
+					<div style="font-size: 50%">PhD thesis supervised by</div>
+					<small style="color:DodgerBlue;">Josep M. <b>Gurt Esparraguera</b></small> 
+					<small> and </small> 
+					<small style="color:DodgerBlue;">Verònica <b>Martínez Ferreras</b></small>
+					
+					<div style="font-size: 50%">available at 
+						<a href="https://andros-spica.github.io/PhD-defense/index.html">https://andros-spica.github.io/PhD-defense/</a><br>
+						<a href="https://andros-spica.github.io/PhD-defense/index.html?print-pdf">https://andros-spica.github.io/PhD-defense/index.html?print-pdf</a> (printable version)
+					</div>
+					<br>
+					<img src="figures/ERAAUB.png" alt="ERAAUB logo" 
+					style="width: 240px; border: none; box-shadow: none"/>
+					<img src="figures/ub.png" alt="Facultat logo" 
+					style="width: 210px; border: none; box-shadow: none"/>
+					
+				</section>
+				<section>
+					<h4>Outline</h4>
+					<ol>
+						<li>Presentation</li>
+						<li>Introduction</li>
+						<li>Analysis of archaeometric data of ceramics</li>
+						<li>Simulation of socioecological systems</li>
+						<li>Conclusions</li>
+					</ol>
+				</section>
+				<section>
+					<h3>1.</h3>
+					<h3>Presentation</h3>
+				</section>
+				<section id="fragments" data-background="figures/MAPA_SurkhanDarya.jpg">
+					<div id="left50">
+						<h4>Research context</h4>
+						<i style="background-color:lightblue">Surkhan Darya Region, Uzbekistan</i><br><br>
+						<b class="fragment">IPAEB (2006-)</b><br>
+						<b class="fragment">Simulpast (2011-17)</b><br>
+						<b class="fragment">CAMOTECCER (2013-16)</b><br>
+						<b class="fragment">CERAC (2017-20)</b><br>
+					</div>
+				</section>
+				<section>
+					<h4>Main objective</h4>
+					<p>
+						Define and explore <b><i>formally</i></b> a set of socioecological and technocultural <b>mechanisms</b>, 
+						postulated as explanations for <b><i>patterns</i></b> documented in the history and archaeology 
+						of <b><i>agropastoral</i></b> societies in <b><i>arid Afro-Eurasia</i></b>.
+					</p>
+				</section>
+				<section id="fragments">
+					<h4>Specific goals</h4>
+					<div id="left50" class="fragment">
+						<h5 style="font-size: 80%">Data analysis</h5>
+						<ul>
+							<br>
+							<li><b style="color: chocolate">Explore</b> methods</li>
+							<li><b style="color: chocolate">Consolidate</b> protocols</li>
+							<li><b style="color: chocolate">Validate</b> methodology</li>
+							<li><b style="color: chocolate">Publish</b></li>
+						</ul>
+					</div>
+					<div id="right50" class="fragment">
+						<h5 style="font-size: 80%">Computational modelling and simulation</h5>
+						<ul>
+							<li><b style="color: chocolate">Define</b> mechanisms</li>
+							<li><b style="color: chocolate">Design</b> models</li>
+							<li><b style="color: chocolate">Simulate</b> scenarios</li>
+							<li><b style="color: chocolate">Publish</b></li>
+						</ul>
+					</div>
+					&nbsp;
+					<p class="fragment">
+						+ <b style="color:forestgreen">open</b> and <b style="color:forestgreen">reproducible</b>
+					</p>
+				</section>
+				<section>
+					<h3>2.</h3>
+					<h3>Introduction</h3>
+				</section>
+				<section id="fragments">
+					<h4>Theoretical-methodological framework</h4>
+					<ul>
+						<li class="fragment">Procesualism</li>
+						<li class="fragment">Explanation and generalisation</li>
+						<li class="fragment">Complexity science</li>
+						<li class="fragment">Quantitative & Digital Archaeology</li>
+						<li class="fragment"><i>Virtual laboratory</i></li>
+					</ul>
+				</section>
+				<section id="fragments" data-background="figures/arid.jpg">
+					<img src="figures/landscapes.jpg" alt="landscapes" class="fragment"
+					style="width: 600px; border: none; box-shadow: none"/>
+					<br>
+					<h4 style="color:floralwhite">arid Afro-Eurasia</h4>
+				</section>
+				<section id="fragments" data-background="figures/MAPA_Eurasia.jpg">
+					<img src="figures/cronologia_1.png" alt="chrono1" class="fragment"
+					style="width: 850px; border: none; box-shadow: none; position: absolute; top: 0%;right: 10%; z-index: -10"/>
+					<img src="figures/cronologia_2.png" alt="chrono2" class="fragment"
+					style="width: 850px; border: none; box-shadow: none"/>
+					<h4 style="text-align: right; background-color: aquamarine">Afro-Eurasia historical regions&nbsp;</h4>
+					<div style="font-size: 50%; text-align: right">
+						<a style="color: black" href="https://github.com/Andros-Spica/PhD-materials">https://github.com/Andros-Spica/PhD-materials</a><br>
+					</div>
+				</section>
+				<section>
+					<h4>Patterns and mecanisms</h4>
+					<ul>
+						<li>Alternation between the predominance of sedentary agriculture and nomadic/semi-nomadic pastoralism</li>
+						<li>Territorial integration</li>
+						<li>Emergence of cooperative institutions</li>
+					</ul>
+				</section>
+				<section>
+					<h3>3.</h3>
+					<h3>Analysis of archaeometric data of ceramics</h3>
+				</section>
+				<section>
+					<h4>Publications</h4>
+					<p style="font-size: 50%">
+						Martínez Ferreras, V., Angourakis, A., Hein, A., Gurt Esparraguera, J.M., Sverchkov, L.M. and Sánchez del Corral, A., 2016. 
+						Pottery in Hellenistic tradition from ancient Bactria: The Kurganzol fortress (Uzbekistan, Central Asia). 
+						<i>Journal of Archaeological Science: Reports</i>, 21:1044-1054. 
+						<a href="https://doi.org/10.1016/j.jasrep.2016.11.049">https://doi.org/10.1016/j.jasrep.2016.11.049</a>.
+						<br><br>
+						Angourakis, A., Martínez Ferreras, V., Torrano, A. and Gurt Esparraguera, J.M., 2018. 
+						Presenting multivariate statistical protocols in R using Romanwine amphorae productions in Catalonia, Spain. 
+						<i>Journal of Archaeological Science</i>, vol. 93, pp. 150-165.
+						<a href="https://doi.org/10.1016/j.jas.2018.03.007">https://doi.org/10.1016/j.jas.2018.03.007</a>.
+						<br><br>
+						Martínez Ferreras, V., Gurt Esparraguera, J.M., Ariño Gil, E., Sánchez del Corral, A., Hein, A., Angourakis, A. y Pidaev, S.R., [en prensa]. 
+						Assessing cultural patterns in ancient Termez (Uzbekistan) through the pottery: from the Hellenistic tradition to the nomadic influences. 
+						<i>Geoarchaeology</i>, XX(X):XX-XX.
+					</p>
+				</section>
+				<section>
+					<h4>Geochemical compositional data</h4>
+
+				</section>
+				<section>
+					<h4>Petrographic data</h4>
+
+				</section>
+				<section>
+					<h3>4.</h3>
+					<h3>Simulation of socioecological systems</h3>
+				</section>
+				<section>
+					<h4>Publications</h4>
+					<p style="font-size: 50%">
+						Angourakis, A., Rondelli, B., Stride, S., Rubio–Campillo, X., Balbo, A.L., Torrano, A., Martínez, V., Madella, M.; Gurt, J.M. 2014, 
+						Land Use Patterns in Central Asia. Step 1: The Musical Chairs Model, 
+						<i>Journal of Archaeological Method and Theory</i>, 21: 405-425. 
+						<a href="http://dx.doi.org/10.1007/s10816–013–9197–0">http://dx.doi.org/10.1007/s10816–013–9197–0</a>.
+						<br><br>
+						Angourakis, A. 2014, 
+						Exploring the oases of Central Asia: A model of interaction between mobile livestock breeding and sedentary agriculture, 
+						in Antela-Bernárdez, B. and Vidal, J. (eds.) <i>Central Asia in Antiquity: Interdisciplinary Approaches</i>, 
+						BAR International Series 2665, pp. 3-16.
+						<br><br>
+						Angourakis, A., Salpeteur, M., Martínez, V., and Gurt, J.M. 2017. 
+						The Nice Musical Chairs model. Exploring the role of competition and cooperation between 
+						farming and herding in the formation of land use patterns in arid Afro-Eurasia. 
+						<i>Journal of Archaeological Method and Theory</i>, 21: 405-425. 
+						<a href="http://dx.doi.org/10.1007/s10816-016-9309-8">http://dx.doi.org/10.1007/s10816-016-9309-8</a>.
+						<br><br>
+						Angourakis, A., Santos, J.I., Galán, J.M. and Balbo, A.L., 2015. 
+						Food for all: An agent-based model to explore the emergence and implications of cooperation for food storage. 
+						<i>Environmental Archaeology</i>, vol. 20, no. 4, pp. 349-363. 
+						<a href="http://dx.doi.org/10.1179/1749631414Y.0000000041">http://dx.doi.org/10.1179/1749631414Y.0000000041</a>.
+						<br><br>
+					</p>
+				</section>
+				<section>
+
+				</section>
+				<section>
+					<h3>5.</h3>
+					<h3>Conclusions</h3>
+				</section>
+				<section>
+
+				</section>
+				
+				<section data-state="title-page">
+					<h3>Gaming Artificial Anasazi</h3>
+					<small>Applying immersive game design and storytelling to an agent-based model in archaeology</small>
+					<p>
+						<small style="color:gainsboro;">Andreas <b>Angourakis</b></small> 
+						<small><a href="https://twitter.com/AndrosSpica" target="_blank"><i style="color:dodgerblue">@AndrosSpica</i></a></small> 
+						<small>&</small> 
+						<small style="color:gainsboro;">Shawn <b>Graham</b></small> 
+						<small><a href="https://twitter.com/electricarchaeo" target="_blank"><i style="color:dodgerblue">@electricarchaeo</i></a></small>
+					</p>
+					<div style="font-size: 50%">available at 
+						<a href="https://andros-spica.github.io/TIPC2-Angourakis-Graham-2018/">https://andros-spica.github.io/TIPC2-Angourakis-Graham-2018/</a><br>
+						<a href="https://andros-spica.github.io/TIPC2-Angourakis-Graham-2018/index.html?print-pdf">https://andros-spica.github.io/TIPC2-Angourakis-Graham-2018/index.html?print-pdf</a> (printable version)
+					</div>
+					<p style="color:aquamarine">THANK YOU!</p>
+					<img src="figures/logos_background.png" alt="logo background" 
+					style="width: 1000px; border: none; box-shadow: none; position: absolute; top: 95%;right: 3%; z-index: -10;"/>
+					<img src="figures/ERAAUB.jpg" alt="ERAAUB logo" 
+					style="width: 140px; border: none; box-shadow: none; position: absolute; top: 96%;right: 70%"/>
+					<img src="figures/MinisterioLogo.png" alt="Ministerio logo" 
+					style="width: 200px; border: none; box-shadow: none; position: absolute; top: 109%;right: 77.2%"/>
+					<img src="figures/ingenio.png" alt="Ingenio logo" 
+					style="width: 79px; border: none; box-shadow: none; position: absolute; top: 109.3%;right: 70%"/>
+					<img src="figures/fac-historia.png" alt="Facultat logo" 
+					style="width: 110px; border: none; box-shadow: none; position: absolute; top: 96%;right: 86%"/>
+					<img src="figures/simulpast.png" alt="simulpast logo" 
+					style="width: 350px; border: none; box-shadow: none; position: absolute; top: 103%;right: 30%"/>
+					<img src="figures/MinisterioLogo2.png" alt="Ministerio logo 2" 
+					style="width: 200px; border: none; box-shadow: none; position: absolute; top: 120%;right: 80%"/>
+					<img src="figures/USAL logo.png" alt="USAL logo" 
+					style="width: 200px; border: none; box-shadow: none; position: absolute; top: 120%;right: 59%"/>
+					<img src="figures/FAI UZB logo.png" alt="FAI UZB logo" 
+					style="width: 180px; border: none; box-shadow: none; position: absolute; top: 118%;right: 38%"/>
+					
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>
