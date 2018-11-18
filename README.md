@@ -2,11 +2,9 @@
 
 Presentation for the defense of the PhD dissertation of the same name, 19th November 2018, at the *Facultat de Geografia i Història de la Universitat de Barcelona*, Barcelona, Catalonia, Spain.
 
-http://interactivepasts.com/the-interactive-pasts-conference-2/
-
 Prepared with *reveal.js* (see https://revealjs.com/)
 
-https://andros-spica.github.io/TIPC2-Angourakis-Graham-2018/
+https://andros-spica.github.io/PhD-defense/
 
 **Authors**  
 
