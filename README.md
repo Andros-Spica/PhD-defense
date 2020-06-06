@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/157593115.svg)](https://zenodo.org/badge/latestdoi/157593115)
+
 # Exploración y modelización de patrones socioecológicos y tecnoculturales en sociedades preindustriales de zonas áridas afro-eurasiáticas
 
 Presentation for the defense of the PhD dissertation of the same name, 19th November 2018, at the *Facultat de Geografia i Història de la Universitat de Barcelona*, Barcelona, Catalonia, Spain.
